@@ -1,2 +1,12 @@
-# Imdb_Clone
-Html, CSS and Vanilla Javascript web app project which displays movies details with the use of "OMDB API" database.
+# IMDB CLONE PROJECT using Html, CSS, Vanilla Javascript, Bootstrap, "OMDB API" database.
+![Screenshot (588)](https://github.com/yash-2096/Imdb_Clone/assets/63354265/7b32bd5c-ab6f-4271-92b7-af41fcb431f1)
+The provided code sets up a movie search and favorite list functionality.
+   The `addToFavDOM` function is called initially to populate the favorite list from local storage. It retrieves the favorite movies from local storage, iterates over them, and creates HTML elements to display each movie's details in the `likedboxContainer` element. The `viewVoidText` function is used to check if the favorite list is empty and toggle the display of the empty text accordingly. If the `likedboxContainer` element is empty, the empty text is displayed, otherwise it's hidden.
+![Screenshot (590)](https://github.com/yash-2096/Imdb_Clone/assets/63354265/45b7393d-6d05-4c44-91cd-94ca8101b718)   
+                                                   Event listener is added to the `searchTerm` element to detect when the user types in the search bar. When the user types, the function inside the event listener is executed. It first checks if the search term is empty. If it is, the movie search list is cleared, and the corresponding display elements are adjusted to show the empty text. If the search term is not empty, an asynchronous function `callMovieName` is called.        
+                                                   The `callMovieName` function is an asynchronous function that fetches movie data from the OMDB API using the provided search term. It constructs the URL with the search term and makes a fetch request to the API.
+                                                   `searchedMovieBoxStr` function is called to display the movie results in the `movieslideContainer` element. It checks if the movie is not already present in the `movieSearchList` array and if it has a valid title. If these conditions are met, it creates a new `div` element with the movie details and appends it to the `movieslideContainer` element.
+                                                    The `favBtnWorking` function handles the click event on the favorite button. It fetches the movie data for the clicked movie using the `callMovieName` function. It retrieves the current favorite movie list from local storage, checks if the movie is already present in the list, and adds it if it's not. The updated favorite movie list is then stored in local storage
+![Screenshot (591)](https://github.com/yash-2096/Imdb_Clone/assets/63354265/058e9355-0849-45bb-a967-3ac181838a41)
+                                                     This is a two page web project the above page is 'About Page' in which movie details is shown whenever we click the Poster and Movie Tittle on the Home Page.
+
