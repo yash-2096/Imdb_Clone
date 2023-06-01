@@ -1,3 +1,5 @@
+IMDB_CLONE site-  https://yash-2096.github.io/Imdb_Clone/
+
 # IMDB CLONE PROJECT using Html, CSS, Vanilla Javascript, Bootstrap, "OMDB API" database.
 ![Screenshot (588)](https://github.com/yash-2096/Imdb_Clone/assets/63354265/7b32bd5c-ab6f-4271-92b7-af41fcb431f1)
 The provided code sets up a movie search and favorite list functionality.
