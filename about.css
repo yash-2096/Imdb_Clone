@@ -1,0 +1,85 @@
+/* CSS Variables */
+
+  body {
+    background-image: url("https://images.pexels.com/photos/7081182/pexels-photo-7081182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+  }
+  
+  /* NAVBAR */
+
+  .navbar{
+    height: 10vh;
+  }
+
+  .fa-star {
+    color: goldenrod;
+  }
+  
+  .page-name {
+    color: goldenrod;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+  }
+  
+  /* Movie card*/
+
+  .movieTitle{
+   color: white;
+  }
+
+  .card {
+    border: 0;
+    background:goldenrod;
+  }
+  
+  #rating{
+    color: goldenrod;
+  }
+
+  .card-text {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .info-type {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .information {
+    font-weight: 500;
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  
+  /* Responsiveness */
+  @media screen and (max-width: 767px) {
+    #poster {
+      margin-top: 1rem;
+      border-radius: 5px !important;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #title {
+      font-size: x-large;
+    }
+  
+    h6 {
+      font-size: medium;
+    }
+  
+    h5 {
+      font-size: medium;
+    }
+  
+    #poster {
+      margin-top: 0px;
+      width: 100%;
+    }
+  }
